@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body{
+    background: #F2F2F2;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    padding: 20;
+    display: flex;
+    flex-direction: column;
+}
+.background-logo{
+    position: relative;
+    background-image: url("./images/bg-header-mobile.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    height: 300px;
+}
+.intro-text{
+    text-align: center;
+    margin-top: 6rem;
+}
+.intro-text > h1{
+    color: #4C545C;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    font-style: normal;
+}
+.intro-text > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #9EABB2;
+    margin-top: 2rem;
+}
+.button-ios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.button-mac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.button-ios > button{
+    width: 19rem;
+    height: 7vh;
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.button-mac > button{
+    width: 19rem;
+    height: 7vh;
+    background: #6174FF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+    border-radius: 28px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.main-text{
+    text-align: center;
+    margin-top: 6rem;
+}
+.main-text > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+    width: 18rem;
+    margin-left: 2.6rem;
+}
+.main-text > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    padding: 30px;
+}
+.main-image > img{
+    width: 100%;
+    padding: 30px;
+}
+.quick-search{
+    padding: 20px;
+    text-align: center;
+}
+.quick-search > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+.quick-search > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 1rem;
+}
+.icloud{
+    padding: 20px;
+    text-align: center;
+}
+.icloud > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+.icloud > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 1rem;
+}
+.history{
+    padding: 20px;
+    text-align: center;
+}
+.history > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+.history > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 1rem;
+}
+.access{
+    padding: 20px;
+    text-align: center;
+    margin-top: 5rem;
+}
+.access > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+.access > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 1rem;
+}
+.access-image > img{
+    width: 100%;
+}
+.workflow{
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 3rem;
+}
+.workflow > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+}
+.workflow > p{
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    margin-top: 1rem;
+    width: 19rem;
+    margin-left: 2.5rem;
+}
+.blacklist-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.blacklist-text{
+    text-align: center;
+    margin-top: 1rem;
+}
+.blacklist-text > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+}
+.blacklist-text > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    width: 20rem;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.plain-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.plain-text{
+    text-align: center;
+}
+.plain-text > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+    margin-top: 1rem;
+}
+.plain-text > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    width: 20rem;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.sneak-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.sneak-text{
+    text-align: center;
+}
+.sneak-text > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.391304px;
+    color: #4C545C;
+    margin-top: 1rem;
+}
+.sneak-text > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    width: 20rem;
+    margin-left: 1.7rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.sponsor{
+    margin-top: 5rem;
+}
+.sponsor > img{
+    display: block;
+    padding: 40px;
+    margin: auto;
+}
+.clipboard-text{
+    margin-top: 3rem;
+    text-align: center;
+}
+.clipboard-text > h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.456522px;
+    color: #4C545C;
+    width: 311px;
+    margin-left: 2rem;
+}
+.clipboard-text > p{
+    font-family: 'Bai Jamjuree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: #9EABB2;
+    padding: 20px;
+    width: 311px;
+    margin-left: 2rem;
+    text-align: center;
+}
+.footer-container{
+    width: 100%;
+    mix-blend-mode: normal;
+    background: #9EABB2;
+}
+.footer-logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}    
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logos > img{
+    width: 45px;
+    height: 45px;
+    margin-top: 2rem;
+}
+.footer-text{
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 4rem;
+}
+.footer-text > span{
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    color: #4C545C;
+}
+.footer-logo > img{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+
+@media screen and (min-width:600px){
+    body{
+        width: 100%;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .button-mac > button{
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .main-text{
+        display: grid;
+        justify-items: center;
+    }
+    .main-text > h1{
+        width: auto;
+        font-size: 36px;
+    }
+    .desktop-div{
+        display: flex;
+        flex-direction: row;
+    }
+    .workflow{
+        display: grid;
+        justify-items: center;
+    }
+    .small-text{
+        display: flex;
+        margin-top: 6rem;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sponsor{
+        display: flex;
+        width: 100%;
+    }
+    .clipboard-text{
+        display: grid;
+        justify-items: center;
+    }
+    /* ეს ვერ გავაკეთე */
+    .footer-container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .footer-text1{
+        display: flex;
+    }
+    .footer-text2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-logos{
+        display: grid;
+        justify-items: center;
+    }
+}
